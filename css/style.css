@@ -1,0 +1,21 @@
+html, body{
+    scroll-behavior: smooth;
+}
+
+.bg-custom{
+    background-color:  #007bff;
+    background-image: linear-gradient(to bottom right, #007bff, #89c2ff);
+}
+.p-shadow{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.20);
+}
+.bg-custom a {
+    color: rgb(248, 224, 255);
+}
+
+@media screen and (max-width: 600px) {
+    .video-fluid{
+        height: 200px;
+        width: 320px;
+    }
+  }
