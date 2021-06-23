@@ -12,10 +12,27 @@ html, body{
 .bg-custom a {
     color: rgb(248, 224, 255);
 }
+.nav-pills .nav-link{
+    border-radius: 1rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
 
 @media screen and (max-width: 600px) {
     .video-fluid{
         height: 200px;
         width: 320px;
+    }
+    .display-4 {
+        font-size: 2.5rem;
+        line-height: 1.0;
+    }
+    .lead{
+        font-size: 1.2em;
+    }
+    .text-justify{
+        text-align: left!important;;
     }
   }
